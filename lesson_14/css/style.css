@@ -1,0 +1,107 @@
+@import url(fonts.css);
+
+
+@import url(reser.css);
+
+
+
+
+[class*=__container] {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.page {}
+
+.page__container {}
+
+.page__order {}
+
+.order {
+	color: #2b2929;
+	max-width: 740px;
+
+}
+
+.order__title {
+	font-size: 40px;
+	line-height: 1.20;
+	font-weight: 600;
+}
+
+.order__info {}
+
+.info {}
+
+.info__sub-title {
+	font-size: 26px;
+	line-height: 1.30;
+
+}
+
+.sub-title {}
+
+
+.info__form-input {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding: 20px;
+}
+
+.form-info {}
+
+.input-form__item {
+	height: 50px;
+	border: 1px solid #d4d4d4;
+	flex-basis: 325px;
+	padding: 0 20px;
+	border-radius: 8px;
+
+}
+
+
+/* checkbox */
+
+
+
+.info__form-checkbox {
+	display: flex;
+	align-items: flex-start;
+}
+
+.checkbox-form {
+	position: relative;
+	cursor: pointer;
+}
+
+.checkbox-form__label {
+	display: flex;
+	color: #535353;
+	font-size: 16px;
+	line-height: 1.87;
+	gap: 15px;
+}
+
+.checkbox-form__item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+.checkbox-form__item:checked+.checkbox-form__label {
+	background-color: rgb(49, 73, 95);
+}
+
+
+.checkbox-form__label::before {
+	content: "";
+	flex-shrink: 0;
+	height: 20px;
+	width: 20px;
+	border: 1px solid #111;
+}
