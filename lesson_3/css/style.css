@@ -1,0 +1,22 @@
+@import url("reser.css");
+
+.link {
+	color: blue;
+}
+
+li {
+	color: rgb(89, 219, 49);
+}
+
+h1,
+h2 {
+	color: aqua;
+}
+
+p {
+	color: rgb(160, 24, 142);
+}
+
+[class*="sub-title"] {
+	color: chocolate;
+}
